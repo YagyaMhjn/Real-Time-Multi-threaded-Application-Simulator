@@ -19,3 +19,16 @@
   0%, 100% { box-shadow: 0 0 8px rgba(244,63,94,0.4); }
   50% { box-shadow: 0 0 20px rgba(244,63,94,0.8); }
 }
+
+
+/* --- Fade in --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Fade out --- */
+@keyframes fadeOut {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(0.8); }
+}
