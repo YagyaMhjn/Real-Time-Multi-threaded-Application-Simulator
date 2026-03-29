@@ -20,7 +20,6 @@
   50% { box-shadow: 0 0 20px rgba(244,63,94,0.8); }
 }
 
-
 /* --- Fade in --- */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(12px); }
@@ -33,7 +32,6 @@
   to { opacity: 0; transform: scale(0.8); }
 }
 
-
 /* --- Slide in from left --- */
 @keyframes slideInLeft {
   from { opacity: 0; transform: translateX(-30px); }
@@ -44,4 +42,17 @@
 @keyframes slideInRight {
   from { opacity: 0; transform: translateX(30px); }
   to { opacity: 1; transform: translateX(0); }
+}
+
+/* --- Scale pop --- */
+@keyframes scalePop {
+  0% { transform: scale(0.6); opacity: 0; }
+  70% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* --- Floating animation for idle threads --- */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
 }
