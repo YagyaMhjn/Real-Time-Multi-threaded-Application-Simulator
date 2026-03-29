@@ -103,3 +103,23 @@
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
+/* --- Utility animation classes --- */
+.anim-fade-in { animation: fadeIn 0.4s ease-out both; }
+.anim-fade-out { animation: fadeOut 0.3s ease-in both; }
+.anim-slide-left { animation: slideInLeft 0.4s ease-out both; }
+.anim-slide-right { animation: slideInRight 0.4s ease-out both; }
+.anim-scale-pop { animation: scalePop 0.35s ease-out both; }
+.anim-float { animation: float 3s ease-in-out infinite; }
+.anim-shake { animation: shake 0.5s ease-in-out; }
+.anim-glow { animation: glowRing 2s ease-in-out infinite; }
+
+/* Stagger children */
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 60ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 120ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 180ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 240ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 300ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 360ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 420ms; }
