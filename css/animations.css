@@ -56,3 +56,13 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
 }
+
+/* --- Connection line dash animation --- */
+@keyframes dashFlow {
+  to { stroke-dashoffset: -20; }
+}
+
+/* --- Spin for loading/processing --- */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
