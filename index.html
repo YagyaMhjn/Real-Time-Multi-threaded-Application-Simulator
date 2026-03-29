@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive simulator visualizing multithreading models (Many-to-One, One-to-One, Many-to-Many), thread synchronization with semaphores and monitors, and CPU scheduling with Round Robin algorithm.">
+  <meta name="keywords" content="multithreading, thread synchronization, semaphore, monitor, CPU scheduling, round robin, operating systems, simulator">
+  <meta name="author" content="OS Project">
+  <title>Real-Time Multithreading Simulator</title>
 
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧵</text></svg>">
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="#" class="navbar-brand">
+        <div class="logo-icon">MT</div>
+        <div class="brand-text"><span>Multithreading</span> Simulator</div>
+      </a>
+      <ul class="nav-tabs" role="tablist">
+        <li class="nav-tab active" data-section="threading-models" role="tab" id="tab-threading-models">🔗 Threading Models</li>
+        <li class="nav-tab" data-section="semaphore" role="tab" id="tab-semaphore">🚦 Semaphore</li>
+        <li class="nav-tab" data-section="monitor" role="tab" id="tab-monitor">🔒 Monitor</li>
+        <li class="nav-tab" data-section="scheduler" role="tab" id="tab-scheduler">⏱️ CPU Scheduler</li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── MAIN CONTENT ─── -->
+  <main class="main-content">
+
+    <!-- ══════════ SECTION: Threading Models ══════════ -->
+    <section class="section active" id="threading-models" role="tabpanel" aria-labelledby="tab-threading-models">
+      <div class="section-header">
+        <h1 class="section-title">Threading Models</h1>
+        <p class="section-subtitle">Visualize how user-level threads are mapped to kernel-level threads in different multithreading models. Click on a thread to block/unblock it.</p>
+      </div>
+      <div id="threading-models-content"></div>
+    </section>
+
+    <!-- ══════════ SECTION: Semaphore ══════════ -->
+    <section class="section" id="semaphore" role="tabpanel" aria-labelledby="tab-semaphore">
+      <div class="section-header">
+        <h1 class="section-title">Semaphore Synchronization</h1>
+        <p class="section-subtitle">Observe how a semaphore controls access to a critical section. Adjust the semaphore value to switch between binary (mutex) and counting semaphores.</p>
+      </div>
+      <div id="semaphore-content"></div>
+    </section>
+
+    <!-- ══════════ SECTION: Monitor ══════════ -->
+    <section class="section" id="monitor" role="tabpanel" aria-labelledby="tab-monitor">
+      <div class="section-header">
+        <h1 class="section-title">Monitor Synchronization</h1>
+        <p class="section-subtitle">See how a monitor provides mutual exclusion with an implicit lock and condition variables for thread coordination.</p>
+      </div>
+      <div id="monitor-content"></div>
+    </section>
+
+    <!-- ══════════ SECTION: CPU Scheduler ══════════ -->
+    <section class="section" id="scheduler" role="tabpanel" aria-labelledby="tab-scheduler">
+      <div class="section-header">
+        <h1 class="section-title">CPU Scheduling — Round Robin</h1>
+        <p class="section-subtitle">Watch the Round Robin scheduler allocate CPU time to threads with a configurable time quantum. See the Gantt chart build in real time.</p>
+      </div>
+      <div id="scheduler-content"></div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer style="text-align:center;padding:32px 16px;color:var(--text-muted);font-size:0.78rem;border-top:1px solid var(--bg-glass-border);">
+    <p>Real-Time Multithreading Application Simulator — Operating Systems Project</p>
+    <p style="margin-top:4px;">Demonstrates threading models, synchronization primitives, and CPU scheduling</p>
+  </footer>
+
+  <!-- ─── SCRIPTS (ES Modules) ─── -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
