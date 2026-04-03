@@ -2,7 +2,7 @@
 
 An interactive web-based simulator that demonstrates core Operating System concepts related to multithreading, thread synchronization, and CPU scheduling.
 
-**🔗 [Live Demo](#)** *(Update with your Vercel deployment URL)*
+**🔗 [Live Demo](#)** *(Update with the Vercel deployment URL)*
 
 ---
 
@@ -16,7 +16,7 @@ Visualize how user-level threads map to kernel-level threads:
 
 Interactive: Add/remove threads, click to block/unblock, run or step through simulation.
 
-### 🚦 Semaphore Synchronization
+###  Semaphore Synchronization
 - Binary (mutex) and counting semaphore modes.
 - Watch threads enter/exit a critical section.
 - Visual waiting queue, semaphore counter, and completion tracking.
