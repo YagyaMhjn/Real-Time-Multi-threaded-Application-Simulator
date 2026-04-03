@@ -24,7 +24,7 @@ class App {
       }
     });
 
-    console.log('🧵 Multithreading Simulator initialized');
+    console.log('Multithreading Simulator initialized');
   }
 
   _bindNavigation() {
