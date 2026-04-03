@@ -52,7 +52,7 @@ export class ThreadingModelSimulator {
       <div class="glass-card viz-container" id="tm-viz">
         <!-- User threads layer -->
         <div class="thread-layer">
-          <div class="layer-label">👤 User-Level Threads</div>
+          <div class="layer-label"> User-Level Threads</div>
           <div class="threads-row" id="tm-user-threads"></div>
         </div>
 
@@ -83,7 +83,7 @@ export class ThreadingModelSimulator {
       <!-- Info Panel -->
       <div class="info-panel">
         <button class="info-toggle" id="tm-info-toggle">
-          <span>📖 Learn More — Threading Models</span>
+          <span> Learn More — Threading Models</span>
           <span class="arrow">▼</span>
         </button>
         <div class="info-body" id="tm-info-body">
