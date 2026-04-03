@@ -11,7 +11,7 @@ export const STATES = {
   TERMINATED: 'Terminated',
 };
 
-// State colors (matching CSS variables)
+// State colors
 export const STATE_COLORS = {
   [STATES.NEW]: '#10b981',       // Emerald
   [STATES.READY]: '#06b6d4',     // Cyan
@@ -110,7 +110,7 @@ export function clamp(val, min, max) {
   return Math.min(Math.max(val, min), max);
 }
 
-// Shuffle array (Fisher-Yates)
+// Shuffle array
 export function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
