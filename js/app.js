@@ -66,8 +66,6 @@ class App {
     this.simulators.scheduler = new SchedulerSimulator('scheduler-content');
   }
 }
-
-// Boot the app
 document.addEventListener('DOMContentLoaded', () => {
   window.app = new App();
 });
