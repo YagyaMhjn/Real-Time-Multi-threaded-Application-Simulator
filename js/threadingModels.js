@@ -224,7 +224,7 @@ export class ThreadingModelSimulator {
         });
       }
     } else if (this.model === 'one-to-one') {
-      // 1:1 mapping
+      // 1 to 1 mapping
       active.forEach((ut, i) => {
         if (i < this.kernelThreads.length) {
           ut.mappedTo = this.kernelThreads[i].id;
