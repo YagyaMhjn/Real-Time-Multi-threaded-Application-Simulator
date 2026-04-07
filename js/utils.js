@@ -51,7 +51,7 @@ export class Thread {
     this.name = name || `T${this.id}`;
     this.state = STATES.NEW;
     this.type = type; // 'user' or 'kernel'
-    this.mappedTo = null; // kernel thread id (for user threads)
+    this.mappedTo = null; // kernel thread id (for users)
     this.blockedAt = null;
     this.burstRemaining = Math.floor(Math.random() * 6) + 2; // 2-7 time units
     this.totalBurst = this.burstRemaining;
