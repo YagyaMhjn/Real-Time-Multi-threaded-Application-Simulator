@@ -2,7 +2,7 @@
    style.css — Design System for Multithreading Simulator
    ============================================================ */
 
-/* --- Google Fonts --- */
+/* --- Fonts from Google --- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* --- CSS Custom Properties --- */
@@ -448,7 +448,7 @@ body::before {
   font-size: 0.8rem;
 }
 
-/* --- Legend --- */
+/* --- Legends --- */
 .legend {
   display: flex;
   flex-wrap: wrap;
