@@ -79,16 +79,6 @@ Then visit `http://localhost:3000`.
 
 ---
 
-## Deploy on Vercel
-
-1. Push this project to a GitHub repository.
-2. Go to [vercel.com](https://vercel.com), click **Add New → Project**.
-3. Import your GitHub repo.
-4. Framework Preset: **Other** (it auto-detects as static).
-5. Click **Deploy**. Done!
-
----
-
 ## OS Concepts Covered
 
 - Multithreading Models (Many-to-One, One-to-One, Many-to-Many)
