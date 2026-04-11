@@ -6,7 +6,7 @@ import { Thread, STATES, STATE_COLORS, STATE_GLOWS, resetThreadIdCounter } from 
 export class ThreadingModelSimulator {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
-    this.model = 'many-to-one'; // default
+    this.model = 'many-to-one';     // default
     this.userThreads = [];
     this.kernelThreads = [];
     this.running = false;
