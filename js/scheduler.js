@@ -12,7 +12,7 @@ export class SchedulerSimulator {
     this.timeQuantum = 3;
     this.currentQuantumUsed = 0;
     this.clock = 0;
-    this.ganttData = []; // { threadName, startTime, endTime, color }
+    this.ganttData = [];     // { threadName, startTime, endTime, color }
     this.running = false;
     this.intervalId = null;
     this.logEntries = [];
