@@ -2,7 +2,6 @@
 
 An interactive web-based simulator that demonstrates core Operating System concepts related to multithreading, thread synchronization, and CPU scheduling.
 
-**🔗 [Live Demo](#)** *(Update with the Vercel deployment URL)*
 
 ---
 
