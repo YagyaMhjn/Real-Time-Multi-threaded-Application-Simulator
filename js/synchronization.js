@@ -3,7 +3,7 @@
 // ============================================================
 import { Thread, STATES, STATE_COLORS } from './utils.js';
 
-// ──────────────────────── SEMAPHORE ────────────────────────
+// ─────────────────────── SEMAPHORE ───────────────────────
 export class SemaphoreSimulator {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
