@@ -13,11 +13,11 @@ export const STATES = {
 
 // State colors
 export const STATE_COLORS = {
-  [STATES.NEW]: '#10b981',       // Emerald
-  [STATES.READY]: '#06b6d4',     // Cyan
-  [STATES.RUNNING]: '#f59e0b',   // Amber
-  [STATES.WAITING]: '#f43f5e',   // Rose
-  [STATES.TERMINATED]: '#6b7280', // Gray
+  [STATES.NEW]: '#10b981',         // Emerald
+  [STATES.READY]: '#06b6d4',       // Cyan
+  [STATES.RUNNING]: '#f59e0b',     // Amber
+  [STATES.WAITING]: '#f43f5e',     // Rose
+  [STATES.TERMINATED]: '#6b7280',  // Gray
 };
 
 // State glow colors
