@@ -45,9 +45,6 @@ Interactive: Add/remove threads, click to block/unblock, run or step through sim
 | Logic | Vanilla JavaScript (ES6 Modules) |
 | Deployment | Vercel (Static Site) |
 
-**No dependencies. No build step. No npm install needed.**
-
----
 
 ## Project Structure
 
