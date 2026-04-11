@@ -11,7 +11,7 @@ export class SemaphoreSimulator {
     this.maxValue = 1;
     this.threads = [];
     this.waitingQueue = [];
-    this.insideCritical = [];       // size atmost = maxValue
+    this.insideCritical = [];          // size atmost = maxValue
     this.completedThreads = [];
     this.running = false;
     this.intervalId = null;
