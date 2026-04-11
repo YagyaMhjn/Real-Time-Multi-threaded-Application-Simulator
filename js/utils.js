@@ -1,6 +1,6 @@
-// ============================================================
-// utils.js — Shared utilities for the Multithreading Simulator
-// ============================================================
+// ==============================================================
+//  utils.js — Shared utilities for the Multithreading Simulator
+// ==============================================================
 
 // Thread States
 export const STATES = {
