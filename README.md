@@ -42,7 +42,6 @@ Interactive: Add/remove threads, click to block/unblock, run or step through sim
 | Structure | HTML5 |
 | Styling | Vanilla CSS (Dark theme, Glassmorphism) |
 | Logic | Vanilla JavaScript (ES6 Modules) |
-| Deployment | Vercel (Static Site) |
 
 
 ## Project Structure
